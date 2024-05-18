@@ -1,0 +1,22 @@
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.link {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 2rem;
+}
+.link:hover {
+  color: rgb(27, 89, 204);
+}
+.link:focus {
+  color: white;
+  background-color: rgb(27, 89, 204);
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
